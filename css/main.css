@@ -1,0 +1,87 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.NamePage{
+    padding: 16px;
+    display: flex;
+    align-items: center ;
+
+}
+
+h1{
+    background-color: rgb(0, 96, 143);
+    color: white;
+    padding: 16px 24px;
+}
+
+h1::before{
+    content: "";
+    position: absolute;
+    top: 89px;
+    left: 137px;
+    border-bottom: 18px solid white;
+    border-left: 50px solid rgb(0, 96, 143);
+}
+
+
+
+.container{
+    padding: 16px;
+    width: 330px;
+    margin: auto;
+
+}
+
+.card{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 96, 143);
+    border-radius: 24px;
+    align-items: center;
+}
+
+label{
+    color: white;
+    width: 300px;
+    margin-left: 24px;
+}
+
+
+.card img{
+    width: 300px;
+    height: auto;
+    border-radius: 24px;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+.entries{
+    width: 300px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8px;
+    
+}
+
+.input{
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+}
+
+.button{
+    border: none;
+    width: 80px;
+    border-radius: 10px;
+    
+
+    
+}
+
